@@ -1,4 +1,4 @@
-# 🎬 Movie Theater Ticket Booking System
+# 🎬 Cinema Ticket Booking System
 
 A lightweight, interactive Command Line Interface (CLI) application built using **x86 Assembly Language (16-bit)** for the **8086 architecture**. The application simulates a movie theater ticketing hub, allowing users to browse available theater details, view multi-tier ticket pricing tiers, and dynamically calculate the total bill for group bookings using integrated decimal I/O procedures.
 
@@ -41,7 +41,7 @@ The runtime process logic flows across the following assembly sub-blocks:
 
 ---
 
-## 📋 Theater Pricing Matrix
+## 📋 Cinema Pricing Matrix
 
 The application references the following embedded cost structure:
 
@@ -58,7 +58,7 @@ The application references the following embedded cost structure:
 
 ## 🚀 How to Run the Application
 
-To execute and run this assembly program, you will need an **8086 Emulator** such as **EMU8086** or **DOSBox** with MASM/TASM.
+To execute and run this assembly program, you will need an **8086 Emulator** such as **EMU8086** 
 
 ### Using EMU8086 (Recommended)
 1. Download and open the **EMU8086** IDE.
@@ -66,30 +66,6 @@ To execute and run this assembly program, you will need an **8086 Emulator** suc
 3. Click the **Compile** button to generate the `.exe` or `.com` executable.
 4. Click **Run** to launch the interactive emulation terminal window.
 
-### Using DOSBox (MASM/TASM Alternative)
-1. Save your code inside your mounted DOS directory as **`cinema.asm`**.
-2. Launch DOSBox and compile the source module:
-   ```text
-   masm cinema.asm;
-
-```
-
-3. Link the generated object block to finalize the runtime execution thread:
-```text
-link cinema.obj;
-
-```
-
-
-4. Run the final application binary:
-```text
-cinema.exe
-
-```
-
-
-
----
 
 ## 👥 Contribution & Development
 
