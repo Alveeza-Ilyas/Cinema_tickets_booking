@@ -1,10 +1,10 @@
-# 🎬 Cinema Ticket Booking System
+# 🎬 Movie Theater Ticket Booking System
 
 A lightweight, interactive Command Line Interface (CLI) application built using **x86 Assembly Language (16-bit)** for the **8086 architecture**. The application simulates a movie theater ticketing hub, allowing users to browse available theater details, view multi-tier ticket pricing tiers, and dynamically calculate the total bill for group bookings using integrated decimal I/O procedures.
 
 ---
 
-## Key Features
+## 🌟 Key Features
 
 - **Interactive Main Menu:** An easy-to-use routing interface with 3 main operations: Viewing details, Booking tickets, or Terminating the program safely.
 - **Detailed Information Desk:** Displays comprehensive records of registered movie theaters, matching locations, direct phone lines, and operating shifts.
@@ -16,7 +16,7 @@ A lightweight, interactive Command Line Interface (CLI) application built using 
 
 ---
 
-## Technical Profile & Architecture
+## 🛠️ Technical Profile & Architecture
 
 - **Platform/Architecture:** Intel 8086 (16-bit Real Mode).
 - **Execution Model:** `.MODEL SMALL` configuration with an isolated 256-byte stack pipeline (`.STACK 100h`).
@@ -28,7 +28,7 @@ A lightweight, interactive Command Line Interface (CLI) application built using 
 
 ---
 
-## Application Code Architecture
+## 📂 Application Code Architecture
 
 The runtime process logic flows across the following assembly sub-blocks:
 
@@ -41,7 +41,7 @@ The runtime process logic flows across the following assembly sub-blocks:
 
 ---
 
-## Theater Pricing Matrix
+## 📋 Theater Pricing Matrix
 
 The application references the following embedded cost structure:
 
@@ -56,7 +56,7 @@ The application references the following embedded cost structure:
 
 ---
 
-## How to Run the Application
+## 🚀 How to Run the Application
 
 To execute and run this assembly program, you will need an **8086 Emulator** such as **EMU8086** or **DOSBox** with MASM/TASM.
 
@@ -91,6 +91,6 @@ cinema.exe
 
 ---
 
-## Contribution & Development
+## 👥 Contribution & Development
 
 This project is built as a baseline application for low-level systems assembly analysis. Feel free to fork this project or introduce pull requests to embed modern upgrades such as interactive array tracking, database logging, or advanced error bounds checking routines.
